@@ -25,7 +25,7 @@
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 3.2rem;
+  gap: 4.8rem;
 }
 
 .main-nav-link:link,
@@ -344,6 +344,10 @@
   font-size: 1.8rem;
   line-height: 1.8;
   margin-bottom: 1.6rem;
+}
+
+.testimonials-container {
+  padding: 9.6rem;
 }
 
 
