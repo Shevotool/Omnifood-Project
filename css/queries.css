@@ -100,9 +100,48 @@ Instead, 1rem = 1rem = 16px */
     font-size: 7.4rem;
   }
 
-  /*  .testimonials-container {
-    padding: 9.6rem 0.5rem;
-  } */
+  .meal-content {
+    padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+  }
+
+  .meal-diet {
+    max-height: 100%;
+    max-width: auto;
+  }
+
+  .diet-recipe {
+    margin-top: -2.5rem;
+  }
+
+  .list {
+    margin-left: -5rem;
+    margin-top: -1rem;
+  }
+
+  .list-item {
+    font-size: 1.8rem;
+  }
+
+  .list-icon {
+    height: 24px;
+  }
+
+  .section-testimonials {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .cta {
+    /* 3/5 = 60% + 2/5 = 40% */
+    grid-template-columns: 3fr 2fr;
+  }
+
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
 }
 
 
