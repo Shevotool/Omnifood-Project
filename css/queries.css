@@ -61,6 +61,8 @@ Instead, 1rem = 1rem = 16px */
   .testimonials-container {
     padding: 9.6rem 3.2rem;
   }
+
+
 }
 
 /* ************************* */
@@ -142,8 +144,16 @@ Instead, 1rem = 1rem = 16px */
   .cta-form {
     grid-template-columns: 1fr;
   }
+
+  .cta-form {
+    margin-top: 1.2rem;
+  }
 }
 
+/* MOVILE NAVIGATION */
+.btn-movile-nav {
+  display: block;
+}
 
 /*     -FONT SIZE SYSTEM (px) 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
 
