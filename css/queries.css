@@ -166,7 +166,7 @@ Instead, 1rem = 1rem = 16px */
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 0.5s;
+    transition: all 0.5s ease-in;
 
     /* Hide the navigation */
     /* Allows NO transitions at all*/
@@ -186,6 +186,7 @@ Instead, 1rem = 1rem = 16px */
     opacity: 1;
     pointer-events: auto;
     visibility: visible;
+    transform: translateX(0);
   }
 
   .nav-open .icon-movile-nav[name="close-outline"] {
@@ -207,6 +208,30 @@ Instead, 1rem = 1rem = 16px */
   }
 }
 
+/* ************************* */
+/* BELOW 704px *  (Smaller Tablets)/ 
+/* ************************* */
+
+@media (max-width: 44em) {
+
+  .grid--3-cols,
+  .grid--4-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .diets {
+    grid-column: 1 / -1;
+    justify-self: center;
+  }
+
+  .heading-secondary {
+    margin-bottom: 4.8rem;
+  }
+
+  .pricing-plan {
+    width: 70%;
+  }
+}
 
 /*     -FONT SIZE SYSTEM (px) 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
 
