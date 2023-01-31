@@ -147,11 +147,16 @@ Instead, 1rem = 1rem = 16px */
 
   .cta-form {
     margin-top: 1.2rem;
+
   }
+
+
+  ;
 
   /* MOVILE NAVIGATION */
   .btn-movile-nav {
     display: block;
+    z-index: 9999;
   }
 
   .main-nav {
