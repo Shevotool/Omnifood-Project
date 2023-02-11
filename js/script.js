@@ -87,6 +87,10 @@ checkFlexGap();
 
 // https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js
 
+/* ************************* */
+/* Fixing Safari flexbox gap */
+/* ************************* */
+
 /*
 .no-flexbox-gap .main-nav-list li:not(:last-child) {
   margin-right: 4.8rem;
